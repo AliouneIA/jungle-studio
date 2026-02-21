@@ -1,0 +1,16 @@
+# Supabase Project Configuration
+# API Settings
+[api]
+enabled = true
+port = 54321
+schemas = ["public"]
+
+# Functions Configuration
+[functions.fusion-run]
+verify_jwt = false
+
+[functions.studio-video-generate]
+verify_jwt = false
+
+[functions.studio-video-poll]
+verify_jwt = false

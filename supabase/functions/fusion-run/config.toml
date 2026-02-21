@@ -1,0 +1,9 @@
+# Configuration for fusion-run Edge Function
+# Disable JWT verification to allow anonymous access
+[auth]
+verify_jwt = false
+
+# Augmenter le timeout pour Supernova (10 appels API)
+# Default: 60s, Max: 150s (Pro), 300s (Enterprise)
+# Timeout maximum pour éviter les erreurs avec les longues requêtes
+timeout = 300
